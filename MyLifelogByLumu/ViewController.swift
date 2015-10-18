@@ -13,7 +13,7 @@ class ViewController: UIViewController, LumuManagerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         NSLog("viewDidLoad");
-        var lm = LumuManager.sharedManager()
+        let lm = LumuManager.sharedManager()
         lm.delegate = self
         lm.startLumuManager()
     }
